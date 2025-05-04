@@ -6,13 +6,13 @@ Week 1:
 - [การใช้งาน Google Colab](#การใช้งาน-google-colab)
 - [Python #2](#python-2)
 - [Introduction to AI, ML, DL](#introduction-to-ai-ml-dl)
+- [NumPy](#numpy)
 
 Week 2:
 
 - [Python #3](#python-3)
 - [Python #4](#python-4)
 - [Neural Network #1](#neural-network-1)
-- [NumPy](#numpy)
 - [Matplotlib](#matplotlib)
 
 Week 3-6:
@@ -50,3 +50,11 @@ Week 3-6:
 
 - Video: [Introduction to AI, ML, DL](https://youtube.com/playlist?list=PLnDwFN2GE8GIZGbqWfCapbwQFcXnL9vsA&si=nWkr3v6Z-ILdPXSe)
 - Slide: [Introduction to AI, ML, DL](https://docs.google.com/presentation/d/1vKFInRRmAoWwwVsu4yFr9YeDIASOqNjCK_bzeeHfm0k/edit?usp=sharing)
+
+### Numpy
+
+ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับ NumPy ซึ่งเป็นไลบรารีสำคัญใน Python สำหรับการคำนวณเชิงตัวเลข เริ่มต้นด้วยการทำความเข้าใจว่า NumPy คืออะไรและวิธีการสร้างอาร์เรย์ NumPy เรียนรู้การทำงานกับรูปร่างของอาร์เรย์ (shape) การตัดส่วนของอาร์เรย์ (slice) และการใช้ฟังก์ชันต่าง ๆ ของ NumPy รวมถึงการสร้างอาร์เรย์ที่ประกอบด้วยค่าเริ่มต้น เช่น zeros และ ones การสร้างค่าแบบสุ่ม (random) และการใช้ฟังก์ชัน arange ในการสร้างลำดับข้อมูล นอกจากนี้ จะได้เรียนรู้การปรับเปลี่ยนรูปร่างของอาร์เรย์ด้วยฟังก์ชัน reshape และ resize การทำให้อาร์เรย์แบนราบด้วย flatten และการสลับแกนของอาร์เรย์ด้วย transpose การใช้ฟังก์ชันทางสถิติ เช่น mean, median, standard deviation การคำนวณผลคูณจุด (dot product) การต่ออาร์เรย์ด้วย concatenate และการซ้อนอาร์เรย์ด้วย stack สุดท้าย จะได้เรียนรู้การโหลดและบันทึกข้อมูล NumPy ด้วยฟังก์ชัน load และ save เพื่อช่วยให้สามารถจัดการและใช้ประโยชน์จากข้อมูลได้อย่างมีประสิทธิภาพ
+
+- Video: [NextGenAI-2025 | Numpy #1](https://www.youtube.com/watch?v=yVS3yHCMwe0)\
+[NextGenAI-2025 | Numpy #2](https://www.youtube.com/watch?v=YjqnYpRbiOE)
+- Code: [NextGen_AI_Camp_Numpy_1_2.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%231/Numpy/NextGen_AI_Camp_Numpy_1_2.ipynb)
