@@ -15,9 +15,28 @@ Week 2:
 - [Neural Network #1](#neural-network-1)
 - [Matplotlib](#matplotlib)
 
-Week 3-6:
+Week 3:
 
-- Coming Soon
+- [Neural Network #2](#neural-network-2)
+- [Pandas](#pandas)
+- [PyTorch](#pytorch)
+
+Week 4:
+
+- [Neural Network #3](#neural-network-3)
+- [OpenCV #1](#opencv-1)
+- [OpenCV #2](#opencv-2)
+- [Applying Neural Networks to Tabular Data](#applying-neural-networks-to-tabular-data)
+
+Week 5:
+
+- [CNN #1](#cnn-1)
+- [CNN #2](#cnn-2)
+- [TorchVision](torchvision)
+
+Week 6:
+
+- [CNN Model Design](#cnn-model-design)
 
 ---
 
@@ -58,3 +77,33 @@ Week 3-6:
 - Video: [NextGenAI-2025 | Numpy #1](https://www.youtube.com/watch?v=yVS3yHCMwe0)\
 [NextGenAI-2025 | Numpy #2](https://www.youtube.com/watch?v=YjqnYpRbiOE)
 - Code: [NextGen_AI_Camp_Numpy_1_2.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%231/Numpy/NextGen_AI_Camp_Numpy_1_2.ipynb)
+
+---
+## Week 2:
+
+### Python #3
+
+ในหัวข้อนี้ เราจะเจาะลึกการใช้งานลิสต์ (lists) ซึ่งเป็นโครงสร้างข้อมูลที่สำคัญในการจัดเก็บและจัดการกลุ่มของข้อมูล โดยจะได้เรียนรู้วิธีการสร้าง การเข้าถึงข้อมูล การปรับปรุงข้อมูลในลิสต์ รวมถึงการใช้งานเมธอดต่าง ๆ ของลิสต์ นอกจากนี้เราจะสำรวจการจัดการกับสตริง (strings) ซึ่งเป็นข้อมูลประเภทข้อความที่ใช้ในหลายๆ โปรแกรม ได้เรียนรู้วิธีการจัดการและการใช้งานฟังก์ชันต่าง ๆ ที่เกี่ยวกับสตริง
+
+- Video: [NextGenAI-2025 | Python #3](https://www.youtube.com/watch?v=-jE0re3eopc)
+- Code: [NextGen_AI_Camp_Python#3.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%232/Python%233/NextGen_AI_Camp_Python%233.ipynb)
+
+### Python #4
+
+ในหัวข้อนี้ เราจะเน้นการทำงานกับลูป (loops) ซึ่งเป็นโครงสร้างที่ช่วยให้เราสามารถทำงานที่ต้องทำซ้ำ ๆ ได้ง่ายขึ้น ได้เรียนรู้วิธีการใช้งานลูปชนิดต่าง ๆ เช่น for loop และ while loop นอกจากนี้เรายังจะครอบคลุมการเขียนฟังก์ชัน (functions) ซึ่งช่วยในการจัดโครงสร้างโค้ดให้เป็นระเบียบและสามารถนำกลับมาใช้ใหม่ได้อย่างมีประสิทธิภาพ สุดท้ายเราจะสำรวจการสร้างและใช้งานคลาส (classes) ซึ่งเป็นพื้นฐานของการเขียนโปรแกรมเชิงวัตถุ (OOP) เพื่อสร้างวัตถุ (objects) ที่มีคุณสมบัติและพฤติกรรมต่าง ๆ
+
+- Video: [NextGenAI-2025 | Python #4](https://www.youtube.com/watch?v=HS5fKKy3Wyw&t=466s)
+- Code: [NextGen_AI_Camp_Python#4.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%232/Python%234/NextGen_AI_Camp_Python%234.ipynb)
+
+### Neural Network #1
+ในหัวข้อนี้ เราจะเริ่มต้นด้วยการทำความเข้าใจพื้นฐานของโครงข่ายประสาทเทียม (ANN) ซึ่งเป็นรากฐานของเทคโนโลยีการเรียนรู้เชิงลึก (Deep Learning) โดยจะได้เรียนรู้เกี่ยวกับส่วนประกอบของ neuron ซึ่งเป็นหน่วยประมวลผลพื้นฐานของ ANN นอกจากนี้ยังจะครอบคลุมการประมาณค่าแบบเชิงเส้น (linear approximation) ซึ่งเป็นขั้นตอนสำคัญในการเรียนรู้ของโครงข่ายประสาท การเรียนรู้เกี่ยวกับ loss function ซึ่งใช้ในการวัดความผิดพลาดของโมเดล และกระบวนการ gradient descent ซึ่งเป็นวิธีการในการปรับพารามิเตอร์ของโมเดลเพื่อให้ได้ค่าที่เหมาะสมที่สุด สุดท้ายเราจะสำรวจวิธีการ visualize ข้อมูลเพื่อให้เข้าใจและวิเคราะห์ผลลัพธ์ได้ง่ายขึ้น
+
+- Video: [NextGenAI-2025 | Neural Network #1](https://www.youtube.com/watch?v=Gmy4jYkcgOA)
+- Code: [NextGen_AI_Camp_Neural_Network1.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%232/NN%231/NextGen_AI_Camp_Neural_Network1.ipynb)
+
+### Matplotlib
+
+ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับ Matplotlib ซึ่งเป็นไลบรารีที่สำคัญสำหรับการสร้างกราฟและการแสดงข้อมูลใน Python เริ่มต้นด้วยการทำความเข้าใจว่า Matplotlib คืออะไรและวิธีการสร้างกราฟพื้นฐาน (Basic Chart) และกราฟเส้น (Line Chart) รวมถึงการตั้งชื่อแกน x (xlabel) และแกน y (ylabel) การสร้างกราฟแท่ง (Bar Chart) และการบันทึกกราฟลงไฟล์ (Save chart to file) จะได้เรียนรู้การปรับแต่งลักษณะเส้น (Line Style) การเพิ่มชื่อกราฟ (Title) และคำอธิบายกราฟ (Legend Function) นอกจากนี้จะครอบคลุมการสร้างกราฟกระจาย (Scatter Plots) การเลือกสีและเครื่องหมาย (Color and Marker) และการสร้างฮิสโตแกรม (Histogram) สุดท้ายจะได้เรียนรู้การ Plotting in real time และการสร้าง confusion matrix เพื่อวิเคราะห์ผลลัพธ์ของโมเดล
+
+- Video: [NextGenAI-2025 | Matplotlib](https://www.youtube.com/watch?v=CwbLB9U-MH0)
+- Code: [NextGen_AI_Camp_Matplotlib.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%232/Matplotlib/NextGen_AI_Camp_Matplotlib.ipynb)
