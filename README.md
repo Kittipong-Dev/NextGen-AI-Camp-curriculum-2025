@@ -130,3 +130,36 @@ Week 6:
 
 - Video: [NextGenAI-2025 | Pytorch #1](https://youtu.be/9QkuU5RSuT8)
 - Code: [NextGen_AI_Camp_PyTorch.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%233/PyTorch/NextGen_AI_Camp_PyTorch.ipynb)
+---
+
+## Week 4:
+
+### Neural Network #3
+ในหัวข้อนี้ จะได้เรียนรู้การสร้าง Model Neural Network โดยใช้ Pytorch กับ Dataset จริง ตั้งแต่การเตรียมและแบ่งข้อมูลเพื่อโหลดเข้า Model การสร้าง Model โดยใช้ Pytorch รวมถึงเทคนิคการ Train Model แบบต่างๆ การนำ Model ที่สร้างไปใช้งานจริง วิธีการ Save และ Load Model เพื่อใช้งานต่อไป การประเมินผลโมเดลในหลายรูปแบบ การจัดการกับปัญหา Overfit ด้วยเทคนิคต่างๆ เช่น Dropout และ Regularization และการทำ Data Augmentation เพื่อเพิ่มประสิทธิภาพของ Model
+
+- Video: [NextGenAI-2025 | Neural Network #3 ep.1](https://youtu.be/MnLQoaPt0wg)<br>
+[NextGenAI-2025 | Neural Network #3 ep.2](https://youtu.be/pUBjMdU6PHU)<br>
+[NextGenAI-2025 | Neural Network #3 ep.3](https://youtu.be/jdjrZ38Lw18)<br>
+[Loss Function](https://www.youtube.com/watch?v=h1XjpBmmJ_s)<br>
+[Backpropagation](https://www.youtube.com/watch?v=Pes6YYEIDno)
+- Code: [NextGen_AI_Camp_Neural_Network3.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%234/NN%233/NextGen_AI_Camp_Neural_Network3.ipynb)
+
+### OpenCV #1
+ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับ OpenCV ซึ่งเป็นไลบรารีสำคัญสำหรับการประมวลผลภาพ (image processing) เริ่มต้นด้วยการทำความเข้าใจโครงสร้างจุดภาพ (Pixel) และการจัดเรียงจุดสี (Color pixel) รวมถึงระบบสีต่าง ๆ เช่น RGB และ Gray จะได้เรียนรู้การสร้างอะเรย์ภาพ การเปิดไฟล์ภาพและการบันทึกภาพ นอกจากนี้ จะทำความเข้าใจคุณสมบัติความละเอียดของภาพ (Resolution) และการปรับขนาดภาพ (Resize) รวมถึงการควอนไทซ์ (Quantize) และการจัดการกับ Bit depth การตรวจจับสี (Color detection) และการสร้างฮีสโทแกรมภาพ เพื่อวิเคราะห์การกระจายของสีในภาพ
+
+- Video: [NextGenAI-2025 | OpenCV #1](https://www.youtube.com/watch?v=UeDqQ6aATm4)
+- Code: [NextGen_AI_Camp_OpenCV-1.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%234/OpenCV%231/NextGen_AI_Camp_OpenCV-1.ipynb)
+- Slide: [NextGen_AI_Camp_OpenCV.pdf](https://raw.githubusercontent.com/NextGen-AI-Camp/curriculum-2025/main/Week%234/OpenCV%231/NextGen_AI_Camp_OpenCV.pdf)
+
+### OpenCV #2
+ในหัวข้อนี้ จะได้เรียนรู้เพิ่มเติมเกี่ยวกับการใช้งาน OpenCV สำหรับการประมวลผลภาพและวิดีโอ เริ่มต้นด้วยการสร้าง อ่าน และเขียนไฟล์วิดีโอ ซึ่งจะทำให้เข้าใจการจัดการกับวิดีโอไฟล์ด้วย OpenCV นอกจากนี้ จะได้เรียนรู้วิธีการเพิ่ม Noise ในภาพเพื่อจำลองสัญญาณรบกวนต่าง ๆ และการกรองสัญญาณรบกวนในภาพ (Noise Removal) เพื่อให้ได้ภาพที่ชัดเจนขึ้น สุดท้าย จะได้เรียนรู้การตรวจจับเส้นขอบ (Edge Detection) ซึ่งเป็นเทคนิคสำคัญในการประมวลผลภาพสำหรับการตรวจจับและวิเคราะห์วัตถุต่าง ๆ ในภาพ
+
+- Video: [NextGenAI-2025 | OpenCV #2](https://youtu.be/8uXuPb1oI2E)
+- Code: [NextGen_AI_Camp_OpenCV-2.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%234/OpenCV%232/NextGen_AI_Camp_OpenCV-2.ipynb)
+
+### Applying Neural Networks to Tabular Data ###
+ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับการใช้ Artificial Neural Network (ANN) ด้วย PyTorch ในการวิเคราะห์และทำนายคุณภาพไวน์จาก tabular data โดยครอบคลุมการเตรียมข้อมูล (scaling, แปลงเป็น tensor), การจัดการข้อมูลด้วย Pandas, การเลือกฟีเจอร์สำคัญ, การสร้างและฝึกโมเดล ANN ทั้งแบบ 1 ชั้นและ 2 ชั้น, การตั้งค่า hyperparameters, และการประเมินผลด้วย R² score และ accuracy
+
+- Video: [NextGenAI-2025 | Applying Neural Networks to Tabular Data](https://youtu.be/XNeQb8BeWHQ?si=jFxhM7tv_mZt8qyZ)
+
+---
