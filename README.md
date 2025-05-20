@@ -161,5 +161,6 @@ Week 6:
 ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับการใช้ Artificial Neural Network (ANN) ด้วย PyTorch ในการวิเคราะห์และทำนายคุณภาพไวน์จาก tabular data โดยครอบคลุมการเตรียมข้อมูล (scaling, แปลงเป็น tensor), การจัดการข้อมูลด้วย Pandas, การเลือกฟีเจอร์สำคัญ, การสร้างและฝึกโมเดล ANN ทั้งแบบ 1 ชั้นและ 2 ชั้น, การตั้งค่า hyperparameters, และการประเมินผลด้วย R² score และ accuracy
 
 - Video: [NextGenAI-2025 | Applying Neural Networks to Tabular Data](https://youtu.be/XNeQb8BeWHQ?si=jFxhM7tv_mZt8qyZ)
-
+- Code: [NextGen_AI_Camp_Practical_Neural_Networks.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%234/ANNs/NextGen_AI_Camp_Practical_Neural_Networks.ipynb)<br>
+[NextGen_AI_Camp_Tabular_Data_Processing_with_ANNs.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%234/ANNs/NextGen_AI_Camp_Tabular_Data_Processing_with_ANNs.ipynb)
 ---
