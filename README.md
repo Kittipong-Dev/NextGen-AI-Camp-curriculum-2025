@@ -75,7 +75,7 @@ Week 6:
 ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับ NumPy ซึ่งเป็นไลบรารีสำคัญใน Python สำหรับการคำนวณเชิงตัวเลข เริ่มต้นด้วยการทำความเข้าใจว่า NumPy คืออะไรและวิธีการสร้างอาร์เรย์ NumPy เรียนรู้การทำงานกับรูปร่างของอาร์เรย์ (shape) การตัดส่วนของอาร์เรย์ (slice) และการใช้ฟังก์ชันต่าง ๆ ของ NumPy รวมถึงการสร้างอาร์เรย์ที่ประกอบด้วยค่าเริ่มต้น เช่น zeros และ ones การสร้างค่าแบบสุ่ม (random) และการใช้ฟังก์ชัน arange ในการสร้างลำดับข้อมูล นอกจากนี้ จะได้เรียนรู้การปรับเปลี่ยนรูปร่างของอาร์เรย์ด้วยฟังก์ชัน reshape และ resize การทำให้อาร์เรย์แบนราบด้วย flatten และการสลับแกนของอาร์เรย์ด้วย transpose การใช้ฟังก์ชันทางสถิติ เช่น mean, median, standard deviation การคำนวณผลคูณจุด (dot product) การต่ออาร์เรย์ด้วย concatenate และการซ้อนอาร์เรย์ด้วย stack สุดท้าย จะได้เรียนรู้การโหลดและบันทึกข้อมูล NumPy ด้วยฟังก์ชัน load และ save เพื่อช่วยให้สามารถจัดการและใช้ประโยชน์จากข้อมูลได้อย่างมีประสิทธิภาพ
 
 - Video: [NextGenAI-2025 | Numpy #1](https://www.youtube.com/watch?v=yVS3yHCMwe0)\
-[NextGenAI-2025 | Numpy #2](https://www.youtube.com/watch?v=YjqnYpRbiOE)
+        [NextGenAI-2025 | Numpy #2](https://www.youtube.com/watch?v=YjqnYpRbiOE)
 - Code: [NextGen_AI_Camp_Numpy_1_2.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%231/Numpy/NextGen_AI_Camp_Numpy_1_2.ipynb)
 
 ---
@@ -115,8 +115,8 @@ Week 6:
 ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับโครงข่ายประสาทเทียมแบบหลายชั้น (Multi-Layer Neural Network) ซึ่งเป็นโครงสร้างพื้นฐานที่ทำให้โมเดลสามารถเรียนรู้รูปแบบที่ซับซ้อนได้ จะได้ทำความเข้าใจการประมาณค่าแบบ Non Linear ซึ่งช่วยให้โมเดลสามารถจับความสัมพันธ์ที่ซับซ้อนระหว่างข้อมูลได้ดีขึ้น นอกจากนี้จะเรียนรู้เกี่ยวกับวงรอบของการสอน AI (Training Loop) ซึ่งประกอบด้วยการปรับปรุงพารามิเตอร์ของโมเดลในแต่ละขั้นตอนการสอน และ Backpropagation ซึ่งเป็นกระบวนการในการคำนวณและปรับปรุงค่าความผิดพลาด (error) ผ่านการปรับน้ำหนักของเครือข่าย จะได้เรียนรู้เกี่ยวกับ Activation Function ซึ่งเป็นฟังก์ชันที่ใช้ในแต่ละนิวรอนเพื่อเพิ่มความสามารถในการเรียนรู้ของโมเดลนอกจากนี้ยังจะครอบคลุมการวัดประสิทธิภาพของโมเดลเพื่อประเมินผลการเรียนรู้ และการทดสอบและปรับแต่ง (Fine Tune) โมเดล Neural Network แบบง่ายเพื่อให้ได้ผลลัพธ์ที่ดีที่สุด
 
 - Video: [NextGenAI-2025 | Neural Network #2 ep.1](https://youtu.be/a1eyTeB93ek?si=guEYvRaRLthcoj0H)<br>
-[NextGenAI-2025 | Neural Network #2 ep.2](https://youtu.be/MOak_Pd7ZzU?si=EM8_XbhYVMLX9x4J)<br>
-[NextGenAI-2025 | Neural Network #2 ep.3](https://youtu.be/lUNoVyyA2ec?si=nNoRyOKKwNag9ChB)
+        [NextGenAI-2025 | Neural Network #2 ep.2](https://youtu.be/MOak_Pd7ZzU?si=EM8_XbhYVMLX9x4J)<br>
+        [NextGenAI-2025 | Neural Network #2 ep.3](https://youtu.be/lUNoVyyA2ec?si=nNoRyOKKwNag9ChB)
 - Code: [NextGen_AI_Camp_Neural_Network2.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%233/NN%232/NextGen_AI_Camp_Neural_Network2.ipynb)
 
 ### Pandas
@@ -138,10 +138,10 @@ Week 6:
 ในหัวข้อนี้ จะได้เรียนรู้การสร้าง Model Neural Network โดยใช้ Pytorch กับ Dataset จริง ตั้งแต่การเตรียมและแบ่งข้อมูลเพื่อโหลดเข้า Model การสร้าง Model โดยใช้ Pytorch รวมถึงเทคนิคการ Train Model แบบต่างๆ การนำ Model ที่สร้างไปใช้งานจริง วิธีการ Save และ Load Model เพื่อใช้งานต่อไป การประเมินผลโมเดลในหลายรูปแบบ การจัดการกับปัญหา Overfit ด้วยเทคนิคต่างๆ เช่น Dropout และ Regularization และการทำ Data Augmentation เพื่อเพิ่มประสิทธิภาพของ Model
 
 - Video: [NextGenAI-2025 | Neural Network #3 ep.1](https://youtu.be/MnLQoaPt0wg)<br>
-[NextGenAI-2025 | Neural Network #3 ep.2](https://youtu.be/pUBjMdU6PHU)<br>
-[NextGenAI-2025 | Neural Network #3 ep.3](https://youtu.be/jdjrZ38Lw18)<br>
-[Loss Function](https://www.youtube.com/watch?v=h1XjpBmmJ_s)<br>
-[Backpropagation](https://www.youtube.com/watch?v=Pes6YYEIDno)
+        [NextGenAI-2025 | Neural Network #3 ep.2](https://youtu.be/pUBjMdU6PHU)<br>
+        [NextGenAI-2025 | Neural Network #3 ep.3](https://youtu.be/jdjrZ38Lw18)<br>
+        [Loss Function](https://www.youtube.com/watch?v=h1XjpBmmJ_s)<br>
+        [Backpropagation](https://www.youtube.com/watch?v=Pes6YYEIDno)
 - Code: [NextGen_AI_Camp_Neural_Network3.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%234/NN%233/NextGen_AI_Camp_Neural_Network3.ipynb)
 
 ### OpenCV #1
@@ -157,10 +157,42 @@ Week 6:
 - Video: [NextGenAI-2025 | OpenCV #2](https://youtu.be/8uXuPb1oI2E)
 - Code: [NextGen_AI_Camp_OpenCV-2.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%234/OpenCV%232/NextGen_AI_Camp_OpenCV-2.ipynb)
 
-### Applying Neural Networks to Tabular Data ###
+### Applying Neural Networks to Tabular Data
 ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับการใช้ Artificial Neural Network (ANN) ด้วย PyTorch ในการวิเคราะห์และทำนายคุณภาพไวน์จาก tabular data โดยครอบคลุมการเตรียมข้อมูล (scaling, แปลงเป็น tensor), การจัดการข้อมูลด้วย Pandas, การเลือกฟีเจอร์สำคัญ, การสร้างและฝึกโมเดล ANN ทั้งแบบ 1 ชั้นและ 2 ชั้น, การตั้งค่า hyperparameters, และการประเมินผลด้วย R² score และ accuracy
 
 - Video: [NextGenAI-2025 | Applying Neural Networks to Tabular Data](https://youtu.be/XNeQb8BeWHQ?si=jFxhM7tv_mZt8qyZ)
 - Code: [NextGen_AI_Camp_Practical_Neural_Networks.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%234/ANNs/NextGen_AI_Camp_Practical_Neural_Networks.ipynb)<br>
-[NextGen_AI_Camp_Tabular_Data_Processing_with_ANNs.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%234/ANNs/NextGen_AI_Camp_Tabular_Data_Processing_with_ANNs.ipynb)
+        [NextGen_AI_Camp_Tabular_Data_Processing_with_ANNs.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%234/ANNs/NextGen_AI_Camp_Tabular_Data_Processing_with_ANNs.ipynb)
 ---
+## Week 5:
+
+### CNN #1
+ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับ Convolutional Neural Networks (CNNs) ซึ่งเป็นโครงข่ายประสาทเทียมที่มีประสิทธิภาพสูงในการประมวลผลภาพ เริ่มจากการทำความเข้าใจ filter mask หรือ kernel และการดำเนินการคอนโวลูชัน (Convolution Operation) ในมิติที่แตกต่างกัน (1D, 2D, Multi-dimension) นอกจากนี้ จะได้เรียนรู้เกี่ยวกับ Convolution Stride, การจัดการปัญหาขอบเขต (Boundary problem) ด้วย Padding และประเภทของ Mask ทั้ง Fixed mask และ Adaptive Mask จะได้ศึกษาโครงสร้างพื้นฐานของ CNN Node ทั้ง conv และ activation รวมถึง Statistical nodes เช่น Max pooling และ Average pooling การปรับพารามิเตอร์ด้วย CNN backpropagation และ MLP layers จะได้เรียนรู้เกี่ยวกับโครงสร้างของ Simple CNN เช่น LeNet และการนำเสนอภาพผลตอบสนองตัวกรอง (Feature map) เพื่อวิเคราะห์การตอบสนองโครงข่าย นอกจากนี้ จะได้เรียนรู้วิธีการคำนวนขนาดโมเดล (จำนวนพารามิเตอร์และหน่วยความจำที่จำเป็นต้องใช้) และเทคนิคการลดขนาดโมเดลเพื่อเพิ่มประสิทธิภาพการประมวลผล
+- Video: [NextGenAI-2025 | CNN #1 (EP.1/3)](https://youtu.be/SprTTU4XI-o)<br>
+        [NextGenAI-2025 | CNN #1 (EP.2/3)](https://youtu.be/2DNcu4ytgqk)<br>
+        [NextGenAI-2025 | CNN #1 (EP.3/3)](https://youtu.be/4doFWWNHxnA?si=jQggyhEOQ531JTeX)<br>
+        [NextGenAI-2025 | CNN Backpropagation](https://youtu.be/N_Rq9i5r0mo)<br>
+- Code: [NextGen_AI_Camp_CNN#1_SimpleCNN.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%235/CNN%231/NextGenAI_Camp_CNN%231_SimpleCNN.ipynb)
+
+### CNN #2
+ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับการสร้างและฝึก Convolutional Neural Networks (CNNs) ด้วย Pytorch เริ่มจากการเตรียมข้อมูลและแบ่งข้อมูลเพื่อโหลดเข้าโมเดล การสร้างโมเดลโดยใช้ Pytorch รวมถึงเทคนิคการฝึกโมเดลแบบต่างๆ การปรับพารามิเตอร์ด้วย CNN backpropagation และการใช้ Loss function ในการฝึกโมเดล นอกจากนี้ จะได้เรียนรู้วิธีการวัดประสิทธิภาพของโมเดลด้วยวิธีต่างๆ เช่น Confusion Matrix เพื่อประเมินและปรับปรุงโมเดลให้มีประสิทธิภาพสูงสุด
+- Video: [NextGenAI-2025 | CNN #2 (EP.1/3)](https://youtu.be/hGEPb3euxCY)<br>
+        [NextGenAI-2025 | CNN #2 (EP.2/3)](https://youtu.be/UAnt2zDawOU)<br>
+        [NextGenAI-2025 | CNN #2 (EP.3/3)](https://youtu.be/2DnNq9R4fx4)<br>
+- Code: [NextGen_AI_Camp_LeNet.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%235/CNN%232/NextGen_AI_Camp_LeNet.ipynb)
+- Train Dataset สำหรับ exercise ท้าย `NextGen_AI_Camp_LeNet.ipynb`: [train_set.zip](https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/CNN2-Exercise-Dataset/train_set.zip)
+- Test Dataset สำหรับ exercise ท้าย `NextGen_AI_Camp_LeNet.ipynb`: [test_set.zip](https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/CNN2-Exercise-Dataset/test_set.zip)<br>
+ในการสร้างไฟล์ผลลัพธ์การทำนายของโมเดลให้อ้างอิงรูปแบบตาม [sample_submission.csv](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%235/CNN%232/sample_submission.csv)
+
+### TorchVision
+ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับเทคนิคการทำ Data Augmentation ซึ่งเป็นกระบวนการเพิ่มข้อมูลในการฝึกโมเดลโดยการปรับแต่งภาพที่มีอยู่เพื่อเพิ่มความหลากหลายของข้อมูล การเพิ่มสัญญาณรบกวนในภาพเพื่อจำลองความไม่สมบูรณ์ของข้อมูล การใช้ Gaussian Blur เพื่อเพิ่มความเบลอในภาพ การปรับแต่งภาพและมุมมองภาพ (Perspective Adjust) เพื่อจำลองการถ่ายภาพจากมุมมองต่าง ๆ การปรับแต่งการเพี้ยนสี (Color jitter) เพื่อจำลองการเปลี่ยนแปลงของสีที่อาจเกิดขึ้นในสภาพแสงต่าง ๆ และการปรับภาพกลับเฉดสี (Inverted Image) เพื่อเพิ่มความหลากหลายในการแสดงผลของภาพ ซึ่งจะช่วยให้โมเดลสามารถเรียนรู้และปรับตัวกับข้อมูลที่มีความหลากหลายมากขึ้น
+- Video: [NextGenAI-2025 | TorchVision](https://youtu.be/2WCNESDUfPY)
+- Code: [NextGen_AI_Camp_TorchVision.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%235/TorchVision/NextGen_AI_Camp_TorchVision.ipynb)
+
+### Transfer Learning
+ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับการใช้เทคนิค Transfer Learning เพื่อปรับใช้ความรู้จากโมเดลที่ได้รับการฝึกมาแล้ว (pretrained model) กับแอพพลิเคชันใหม่ๆ โดยเริ่มจากการเลือก pretrained model ที่เหมาะสมกับงานที่ต้องการทำ และการตัดต่อเพิ่ม layer ให้โมเดลมีความเหมาะสมกับการใช้งานที่เฉพาะเจาะจง จะได้เรียนรู้การเตรียมข้อมูลและการแบ่งข้อมูลเพื่อโหลดเข้าโมเดล การสร้างโมเดลโดยใช้ Pytorch รวมถึงเทคนิคการฝึกโมเดลแบบต่างๆ ที่ช่วยให้โมเดลสามารถเรียนรู้และปรับตัวกับข้อมูลใหม่ได้อย่างมีประสิทธิภาพ
+- Video: [NextGenAI-2025 | CNN Transfer Learning (EP.1/2)](https://youtu.be/NqPbuDElJJI)
+        [NextGenAI-2025 | CNN Transfer Learning (EP.2/2)](https://youtu.be/XqkxxlfXhmc)
+- Code: [NextGen_AI_Camp_TransferLearning_Exercise.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%235/Transfer_Learning/NextGen_AI_Camp_TransferLearning_Exercise.ipynb)
+        [sample_submission.csv](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%235/Transfer_Learning/sample_submission.csv)
+- Data: [data.zip ](https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/Transfer-Learning-Exercise-Dataset/data.zip), [test.zip](https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/Transfer-Learning-Exercise-Dataset/test.zip)
