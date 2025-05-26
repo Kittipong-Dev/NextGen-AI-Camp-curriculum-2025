@@ -32,7 +32,8 @@ Week 5:
 
 - [CNN #1](#cnn-1)
 - [CNN #2](#cnn-2)
-- [TorchVision](torchvision)
+- [TorchVision](#torchvision)
+- [CNN Transfer Learning](#transfer-learning)
 
 Week 6:
 
@@ -191,8 +192,8 @@ Week 6:
 
 ### Transfer Learning
 ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับการใช้เทคนิค Transfer Learning เพื่อปรับใช้ความรู้จากโมเดลที่ได้รับการฝึกมาแล้ว (pretrained model) กับแอพพลิเคชันใหม่ๆ โดยเริ่มจากการเลือก pretrained model ที่เหมาะสมกับงานที่ต้องการทำ และการตัดต่อเพิ่ม layer ให้โมเดลมีความเหมาะสมกับการใช้งานที่เฉพาะเจาะจง จะได้เรียนรู้การเตรียมข้อมูลและการแบ่งข้อมูลเพื่อโหลดเข้าโมเดล การสร้างโมเดลโดยใช้ Pytorch รวมถึงเทคนิคการฝึกโมเดลแบบต่างๆ ที่ช่วยให้โมเดลสามารถเรียนรู้และปรับตัวกับข้อมูลใหม่ได้อย่างมีประสิทธิภาพ
-- Video: [NextGenAI-2025 | CNN Transfer Learning (EP.1/2)](https://youtu.be/NqPbuDElJJI)
-        [NextGenAI-2025 | CNN Transfer Learning (EP.2/2)](https://youtu.be/XqkxxlfXhmc)
+- Video: [NextGenAI-2025 | CNN Transfer Learning (EP.1/2)](https://youtu.be/eG7H6KbXjtY)<br>
+        [NextGenAI-2025 | CNN Transfer Learning (EP.2/2)](https://youtu.be/Lvnq0TbEdgw)<br>
 - Code: [NextGen_AI_Camp_TransferLearning_Exercise.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%235/Transfer_Learning/NextGen_AI_Camp_TransferLearning_Exercise.ipynb)
         [sample_submission.csv](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%235/Transfer_Learning/sample_submission.csv)
 - Data: [data.zip ](https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/Transfer-Learning-Exercise-Dataset/data.zip), [test.zip](https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/Transfer-Learning-Exercise-Dataset/test.zip)
