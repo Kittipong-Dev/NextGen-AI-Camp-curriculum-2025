@@ -37,7 +37,8 @@ Week 5:
 
 Week 6:
 
-- [CNN Model Design](#cnn-model-design)
+- [การจำแนกเสียงด้วย Convolutional Neural Networks](#การจำแนกเสียงด้วย-convolutional-neural-networks)
+- [การระบุตัวผู้พูดโดยใช้ระดับเสียงและ MFCC](#การระบุตัวผู้พูดโดยใช้ระดับเสียงและ-mfcc)
 
 ---
 
@@ -197,3 +198,16 @@ Week 6:
 - Code: [NextGen_AI_Camp_TransferLearning_Exercise.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%235/Transfer_Learning/NextGen_AI_Camp_TransferLearning_Exercise.ipynb)
         [sample_submission.csv](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%235/Transfer_Learning/sample_submission.csv)
 - Data: [data.zip ](https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/Transfer-Learning-Exercise-Dataset/data.zip), [test.zip](https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/Transfer-Learning-Exercise-Dataset/test.zip)
+
+---
+## Week 6:
+
+### การจำแนกเสียงด้วย Convolutional Neural Networks
+ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับพื้นฐานการจำแนกเสียง (Audio Classification) ด้วย Convolutional Neural Networks (CNNs) โดยใช้ภาพ Spectrogram ที่แปลงจากเสียงเป็นข้อมูลนำเข้าหลัก CNNs จะเรียนรู้ลวดลายจากภาพเหล่านี้ กระบวนการนี้รวมถึงการเตรียมข้อมูล การแบ่งชุดข้อมูลสำหรับการฝึก ตรวจสอบ และทดสอบ รวมถึงรอบการฝึก (Training Loop) ที่ประกอบด้วยการส่งข้อมูล การคำนวณค่าความผิดพลาด (Loss) การปรับปรุงพารามิเตอร์ด้วย Backpropagation และการทำงานของ Activation Function นอกจากนี้ยังกล่าวถึงการวัดประสิทธิภาพด้วย Accuracy และ Confusion Matrix ตลอดจนแนวทางการทดสอบโมเดลบนข้อมูลใหม่และการปรับแต่งโมเดลที่ฝึกแล้ว
+- Video: [NextGenAI-2025 | Audio Classification](https://youtu.be/B_-we37Gc70)
+- Code: SOON
+
+### การระบุตัวผู้พูดโดยใช้ระดับเสียงและ MFCC
+ในหัวข้อนี้ จะได้เรียนรู้พื้นฐานการระบุตัวผู้พูด (Speaker Identification) ซึ่งเน้นการนำคุณลักษณะเฉพาะของเสียงพูดมาใช้ในการแยกแยะผู้พูดแต่ละคน โดยจะทำความเข้าใจกระบวนการประมวลผลเสียงเบื้องต้น (audio processing) เช่น A/D audio และ Fast Fourier Transform (FFT) เพื่อสกัดคุณลักษณะสำคัญอย่างระดับเสียง (pitch) และ Mel-Frequency Cepstral Coefficients (MFCC process) รวมถึงเทคนิค Voice Activity Detection (VAD) เพื่อช่วยในการคัดแยกเสียงพูด ก่อนนำคุณลักษณะเหล่านี้ไปใช้ในระบบ Speaker Identification เพื่อระบุว่าใครคือผู้พูดได้อย่างถูกต้อง
+- Video: [NextGenAI-2025 | Speaker Identification using Pitch and MFCC](https://youtu.be/qZKhsJIhMdk)
+- Code: SOON
