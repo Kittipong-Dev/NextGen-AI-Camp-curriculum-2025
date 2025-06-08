@@ -40,6 +40,8 @@ Week 6:
 - [การจำแนกเสียงด้วย Convolutional Neural Networks](#การจำแนกเสียงด้วย-convolutional-neural-networks)
 - [การระบุตัวผู้พูดโดยใช้ระดับเสียงและ MFCC](#การระบุตัวผู้พูดโดยใช้ระดับเสียงและ-mfcc)
 
+Week 7:
+- [Effective Deep Network Architecture (การออกแบบสถาปัตยกรรมโครงข่ายเชิงลึกอย่างมีประสิทธิภาพ)](#effective-deep-network-architecture)
 ---
 
 ## Week 1:
@@ -212,3 +214,10 @@ Week 6:
 
 ### Bonus
 - Code : [BONUS](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%236/Bonus/NextGenAICamp_KeywordsSpotting.ipynb)
+
+---
+## Week 7:
+### Effective Deep Network Architecture
+ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับการปรับปรุงประสิทธิภาพโมเดล Deep Learning อาศัยเทคนิคทางสถาปัตยกรรมที่สำคัญ โดยเฉพาะในโมเดลอย่าง Inception, GoogleNet และ ResNet ซึ่งมีการนำ skip connection และ bottleneck มาใช้ Inception Modules ช่วยให้เครือข่ายสามารถเรียนรู้คุณสมบัติได้หลายขนาดพร้อมกัน ลดความซับซ้อนในการคำนวณ ในขณะที่ ResNet ใช้ skip connection (หรือ residual connection) เพื่อแก้ปัญหา vanishing gradient ทำให้สามารถสร้างเครือข่ายที่ลึกขึ้นได้ และเพิ่มประสิทธิภาพการไหลของข้อมูล ส่วน bottleneck design ซึ่งใช้การบีบอัดและขยายมิติข้อมูลด้วย 1x1 convolution ช่วยลดจำนวนพารามิเตอร์และการคำนวณได้อย่างมีนัยสำคัญ การผสานรวมเทคนิคเหล่านี้เข้าด้วยกันถือเป็นหัวใจสำคัญของ เทคนิคการปรับปรุงประสิทธิภาพโมเดล
+- Video: [NextGenAI-2025 | Effective Deep Network Architecture](https://youtu.be/RPnygkz99Co)
+- Code: [NextGenAICamp_Effective_Deep_Network_Architecture_Design.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%237/Effective_Deep_Network_Architecture_Design/NextGenAICamp_Effective_Deep_Network_Architecture_Design.ipynb)
