@@ -42,6 +42,9 @@ Week 6:
 
 Week 7:
 - [Effective Deep Network Architecture (การออกแบบสถาปัตยกรรมโครงข่ายเชิงลึกอย่างมีประสิทธิภาพ)](#effective-deep-network-architecture)
+
+Workshop:
+- [Workshop : การประเมินราคาเสื้อผ้ามือสอง](#workshop-การประเมินราคาเสื้อผ้ามือสอง)
 ---
 
 ## Week 1:
@@ -221,3 +224,13 @@ Week 7:
 ในหัวข้อนี้ จะได้เรียนรู้เกี่ยวกับการปรับปรุงประสิทธิภาพโมเดล Deep Learning อาศัยเทคนิคทางสถาปัตยกรรมที่สำคัญ โดยเฉพาะในโมเดลอย่าง Inception, GoogleNet และ ResNet ซึ่งมีการนำ skip connection และ bottleneck มาใช้ Inception Modules ช่วยให้เครือข่ายสามารถเรียนรู้คุณสมบัติได้หลายขนาดพร้อมกัน ลดความซับซ้อนในการคำนวณ ในขณะที่ ResNet ใช้ skip connection (หรือ residual connection) เพื่อแก้ปัญหา vanishing gradient ทำให้สามารถสร้างเครือข่ายที่ลึกขึ้นได้ และเพิ่มประสิทธิภาพการไหลของข้อมูล ส่วน bottleneck design ซึ่งใช้การบีบอัดและขยายมิติข้อมูลด้วย 1x1 convolution ช่วยลดจำนวนพารามิเตอร์และการคำนวณได้อย่างมีนัยสำคัญ การผสานรวมเทคนิคเหล่านี้เข้าด้วยกันถือเป็นหัวใจสำคัญของ เทคนิคการปรับปรุงประสิทธิภาพโมเดล
 - Video: [NextGenAI-2025 | Effective Deep Network Architecture](https://youtu.be/RPnygkz99Co)
 - Code: [NextGenAICamp_Effective_Deep_Network_Architecture_Design.ipynb](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/Week%237/Effective_Deep_Network_Architecture_Design/NextGenAICamp_Effective_Deep_Network_Architecture_Design.ipynb)
+---
+## Workshop:
+### Workshop การประเมินราคาเสื้อผ้ามือสอง
+เวิร์กชอปนี้มุ่งเน้นไปที่การประเมินราคาเสื้อผ้ามือสอง โดยน้องๆ จะได้ออกแบบโมเดลเพื่อแก้ไขปัญหาใน 2 สัปดาห์ ข้อมูลสำหรับสัปดาห์แรกประกอบด้วยรูปภาพและเสียง ซึ่งน้อง ๆ สามารถนำไปใช้ทำนายคุณสมบัติต่าง ๆ เช่น ประเภท, สี, สภาพ, กลิ่น, และการเป็นขุย ข้อมูลที่โมเดลของน้อง ๆ ทำนายได้นี้จะถูกนำไปใช้ต่อในเวิร์กชอปสัปดาห์ที่ 2 เพื่อประเมินราคาเสื้อผ้ามือสอง
+
+#### Workshop Week 1: การจำแนกประเภท (Classification Model)
+- กำหนดการ: 16 – 22 มิถุนายน พ.ศ.2568
+- วัตถุประสงค์: ออกแบบโมเดลเพื่อประเมินคุณสมบัติของเสื้อผ้ามือสองจากข้อมูลรูปภาพและเสียง
+- File: [NextGenAICamp_Workshop_Week1.pdf](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/WorkshopWeek%231/NextGenAICamp_Workshop_Week1.pdf)
+- Data: [dataset.zip]((https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/Workshop-Week1-Dataset/dataset.zip))
