@@ -234,3 +234,9 @@ Workshop:
 - วัตถุประสงค์: ออกแบบโมเดลเพื่อประเมินคุณสมบัติของเสื้อผ้ามือสองจากข้อมูลรูปภาพและเสียง
 - File: [NextGenAICamp_Workshop_Week1.pdf](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/WorkshopWeek%231/NextGenAICamp_Workshop_Week1.pdf)
 - Data: [dataset.zip](https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/Workshop-Week1-Dataset/dataset.zip)
+
+#### Workshop Week 2: การประเมินราคาเสื้อผ้ามือสอง
+- กำหนดการ: 23 - 29 มิถุนายน พ.ศ.2568
+- วัตถุประสงค์: ออกแบบโมเดลเพื่อประเมินราคาเสื้อผ้ามือสอง
+- File: [NextGenAICamp_Workshop_Week2.pdf](https://github.com/NextGen-AI-Camp/curriculum-2025/blob/main/WorkshopWeek%232/NextGenAICamp_Workshop_Week2.pdf)
+- Data: [dataset.zip](https://github.com/NextGen-AI-Camp/curriculum-2025/releases/download/Workshop-Week2-Dataset/dataset.zip)
